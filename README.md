@@ -27,7 +27,7 @@ foo@bar:~$ mv build ~/.buildOpenCV
 Once done that, it's almost finished: Just add this line to your shell config file: <br>
 
 ```console
-foo@bar:~$ echo 'alias opencv='~/.buildOpenCV/build'
+foo@bar:~$ echo 'alias opencv='~/.buildOpenCV/build' >> .bashrc
 ```
 
 And now you can just type<br>
