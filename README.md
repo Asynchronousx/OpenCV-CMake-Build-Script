@@ -9,7 +9,7 @@ If you *don't have* the OpenCV_DIR set into your shell file, you should do somet
 assuming you have installed OpenCV and it is currently into your main folder): <br>
 
 ```console
-foo@bar:~$ echo export OpenCV_DIR=~/OpenCV/build >> .bashrc
+foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .bashrc
 ```
 
 Once done that, create an hidden folder to contain the OpenCV build file: <br>
@@ -27,7 +27,7 @@ foo@bar:~$ mv build ~/.buildOpenCV
 Once done that, it's almost finished: Just add this line to your shell config file: <br>
 
 ```console
-foo@bar:~$ echo alias opencv=~/.buildOpenCV/build >> .bashrc
+foo@bar:~$ echo "alias opencv=~/.buildOpenCV/build" >> .bashrc
 ```
 
 And now you can just type<br>
