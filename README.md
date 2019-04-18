@@ -3,7 +3,7 @@ With this simple bash script, you will *not* need anymore to compile your OpenCV
 avoiding the stress of compiling copy-pasted code everytime into your config file.
 
 Simple as it is, bebfore using this script is *strongly* suggested to create an alias to make the script executable everywhere<br>
-into your system.Instead, is requested the presence of the OpenCV build dir into the path variables.<br>
+into your system.Instead, it is <b>requested</b> the presence of the OpenCV build dir into the path variables.<br>
 
 If you *don't have* the OpenCV_DIR set into your shell file, you should do something like this (example for *bash shell*, <br>
 assuming you have installed OpenCV and it is currently into your main folder): <br>
@@ -28,14 +28,12 @@ Once done that, it's almost finished: Just add this line to your shell config fi
 
 ```console
 foo@bar:~$ echo 'alias opencv='~/.buildOpenCV/build'
-foo
 ```
 
 And now you can just type<br>
 
 ```console
 foo@bar:~$ opencv OpenCVFile.cpp 
-foo
 ```
 
 To build, compile and link your OpenCV cpp file, avoiding the use of CMakeList. <br>
