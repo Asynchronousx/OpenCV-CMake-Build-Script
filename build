@@ -1,0 +1,34 @@
+#!/bin/bash
+
+#CHECK FOR ERRORS
+if [ $# -ne 1 ]; then 
+ echo "Must provide a filename."
+ exit 1
+elif [ ! -f $1 ]; then
+ echo "Filename does not exists."
+ exit 1
+elif [ ${1: -4} != ".cpp" ]; then 
+ echo "The file must be a CPP file."
+ exit 1
+fi
+
+#CHECK FOR CMAKE FILE
+if [ ! -f "CMakeLists.txt" ]; then
+ touch CMakeLists.txt
+ echo 'cmake_minimum_required(VERSION 2.8.12)
+project(EXENAME)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(EXENAME CPPNAME)
+target_link_libraries(EXENAME ${OpenCV_LIBS})' >> CMakeLists.txt
+fi
+
+#REPLACE PLACEHOLDER
+FILENAME=$1
+FILE=${FILENAME%.*}
+sed -i "s/CPPNAME/$FILENAME/g" CMakeLists.txt
+sed -i "s/EXENAME/$FILE/g" CMakeLists.txt
+
+#BUILD AND CLEAN
+cmake . && make
+rm -rf *Make* && rm cmake*
