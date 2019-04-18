@@ -41,7 +41,9 @@ To build, compile and link your OpenCV cpp file, avoiding the use of CMakeList. 
 *obviously* don't forget to <b>run your program!</b> The output of the script will be the name of the input file<br>
  *minus* the *.cpp* extension.
  
- 
+ ```console
+example: OpenCVTest.cpp -> OpenCVTest
+```
   
 
 
