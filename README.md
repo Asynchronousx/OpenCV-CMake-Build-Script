@@ -11,13 +11,13 @@ assuming you have installed OpenCV and it is currently into your main folder): <
 ```console
 foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .<<yourshell>rc>
 ```
-example with a bash and zsh shell:
+example with various shells:
 
-1. 
+1. ZSH
 ```console
 foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .zshrc
 ```
-2.
+2. BASH
 ```console
 foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .bashrc
 ```
