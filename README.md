@@ -9,8 +9,19 @@ If you *don't have* the OpenCV_DIR set into your shell file, you should do somet
 assuming you have installed OpenCV and it is currently into your main folder): <br>
 
 ```console
+foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .<<yourshell>rc>
+```
+example with a bash and zsh shell:
+
+1. 
+```console
+foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .zshrc
+```
+2.
+```console
 foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .bashrc
 ```
+
 
 Once done that, create an hidden folder to contain the OpenCV build file: <br>
 
