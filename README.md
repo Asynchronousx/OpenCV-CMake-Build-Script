@@ -46,8 +46,13 @@ foo@bar:~$ mv /path/to/build ~/.buildOpenCV
 
 Once done that, it's almost finished: Just add this line to your shell config file: <br>
 
+1. Bash
 ```console
 foo@bar:~$ echo "alias opencv=~/.buildOpenCV/build" >> .bashrc
+```
+2. ZSH
+```console
+foo@bar:~$ echo "alias opencv=~/.buildOpenCV/build" >> .zshrc
 ```
 
 And now you can just type<br>
