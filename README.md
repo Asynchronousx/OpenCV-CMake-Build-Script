@@ -5,6 +5,8 @@ avoiding the stress of compiling copy-pasted code everytime into your config fil
 Simple as it is, bebfore using this script is *strongly* suggested to create an alias to make the script executable everywhere<br>
 into your system.Instead, it is <b>requested</b> the presence of the OpenCV build dir into the path variables.<br>
 
+# Ubuntu-like Systems
+
 If you *don't have* the OpenCV_DIR set into your shell file, you should do something like this (example for *bash shell*, <br>
 assuming you have installed OpenCV and it is currently into your main folder): <br>
 
@@ -22,6 +24,13 @@ foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .zshrc
 foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .bashrc
 ```
 
+# Arch Linux-like Systems
+If you got an Arch-like enviroinment (Manjaro, Antegros or Arch) you can just install openCV from<br>
+the AUR repo. In this case, you don't need to set the OPENCV_DIR because the library are installed<br>
+into your /usr/lib path.<br>
+Just donwload the appropriate BASH script and follow the ahead step from now on. <br>
+
+# Common Steps
 
 Once done that, create an hidden folder to contain the OpenCV build file: <br>
 
