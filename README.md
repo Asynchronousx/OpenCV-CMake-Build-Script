@@ -28,7 +28,7 @@ foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .bashrc
 If you got an Arch-like enviroinment (Manjaro, Antegros or Arch) you can just install openCV from<br>
 the AUR repo. In this case, you don't need to set the OPENCV_DIR because the library are installed<br>
 into your /usr/lib path.<br>
-Just donwload the appropriate BASH script and follow the ahead step from now on. <br>
+Just donwload the appropriate BASH script (*build_arch*), rename it to *build* and follow the steps ahead.<br>
 
 # Common Steps
 
