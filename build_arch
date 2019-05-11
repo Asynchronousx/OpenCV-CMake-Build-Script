@@ -1,0 +1,19 @@
+#!/bin/bash
+
+FILENAME=$1
+FILE=${FILENAME%.*}
+
+#CHECKFILE
+if [ $# -ne 1 ]; then
+ echo "Must provide a filename." 
+ exit 1
+elif [ ! -f $FILENAME ]; then
+ echo "Filename does not exists." 
+ exit 1
+elif [ ${FILENAME: -4} != ".cpp" ]; then
+ echo "The file must be a CPP file."
+ exit 1
+fi
+
+#BUILD
+g++ $FILENAME -g -o $FILE `pkg-config --cflags --libs opencv4`
