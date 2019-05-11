@@ -41,7 +41,7 @@ foo@bar:~$ mkdir ~/.buildOpenCV
 And copy the <b>build</b> file into this newly folder, i.e. from terminal:
 
 ```console
-foo@bar:~$ mv build ~/.buildOpenCV
+foo@bar:~$ mv /path/to/build ~/.buildOpenCV
 ```
 
 Once done that, it's almost finished: Just add this line to your shell config file: <br>
