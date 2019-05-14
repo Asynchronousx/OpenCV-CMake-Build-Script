@@ -12,7 +12,7 @@ assuming you have installed OpenCV and it is currently into your main folder): <
 ```console
 foo@bar:~$ echo "export OpenCV_DIR=~/your/path/to/OpenCV/build" >> .<<yourshell>rc>
 ```
-example with various shells, if OpenCV dir is into the *home folder*
+example with various shells, if your OpenCV dir is into the *home folder* (~/OpenCV)
 
 1. ZSH
 ```console
