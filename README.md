@@ -3,9 +3,9 @@ With this simple bash script, you will *not* need anymore to compile your OpenCV
 avoiding the stress of compiling copy-pasted code everytime into your config file.
 
 ### Pre-requisites
-#### Ubuntu/Debian
+#### - Ubuntu/Debian
 Just Open-CV installed. You can fetch the *working* script install [here](https://github.com/milq/milq/blob/master/scripts/bash/install-opencv.sh) if a <b>Ubuntu/Debian</b> user<br>
-#### Arch-Like
+#### - Arch-Like
 If using an Arch-Like system, just follow those steps:
 
 ```console
