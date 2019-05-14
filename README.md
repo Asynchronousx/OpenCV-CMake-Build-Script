@@ -2,6 +2,9 @@
 With this simple bash script, you will *not* need anymore to compile your OpenCV code with the aux of CMakeList e Makefile,<br>
 avoiding the stress of compiling copy-pasted code everytime into your config file.
 
+### Pre-requisites
+Just Open-CV installed. You can fetch the *working* script install [here](https://github.com/milq/milq/blob/master/scripts/bash/install-opencv.sh) if a <b>Ubuntu/Debian</b> user
+
 # Ubuntu-like Systems
 Simple as it is, bebfore using this script is *strongly* suggested to create an alias to make the script executable everywhere<br>
 into your system.Instead, it is <b>requested</b> the presence of the OpenCV build dir into the path variables.<br>
