@@ -10,9 +10,9 @@ If you *don't have* the OpenCV_DIR set into your shell file, you should do somet
 assuming you have installed OpenCV and it is currently into your main folder): <br>
 
 ```console
-foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .<<yourshell>rc>
+foo@bar:~$ echo "export OpenCV_DIR=~/your/path/to/OpenCV/build" >> .<<yourshell>rc>
 ```
-example with various shells:
+example with various shells, if OpenCV dir is into the *home folder*
 
 1. ZSH
 ```console
