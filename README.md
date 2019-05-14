@@ -7,7 +7,7 @@ Just Open-CV installed. Depending on what system you run on, you should do the f
 #### -Ubuntu/Debian
  You can fetch the *working* script install [here](https://github.com/milq/milq/blob/master/scripts/bash/install-opencv.sh) if a <b>Ubuntu/Debian</b> user<br>
 #### -Arch-Like
- If using an Arch-Like system, just follow those steps:
+ If using an <b>Arch-Like</b> system, just follow those steps:
 
 ```console
 sudo pacman -S opencv
