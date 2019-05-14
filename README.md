@@ -4,10 +4,10 @@ avoiding the stress of compiling copy-pasted code everytime into your config fil
 
 ### Pre-requisites
 Just Open-CV installed. Depending on what system you run on, you should do the following steps.<br>
-..* Ubuntu/Debian
-You can fetch the *working* script install [here](https://github.com/milq/milq/blob/master/scripts/bash/install-opencv.sh) if a <b>Ubuntu/Debian</b> user<br>
-..* Arch-Like
-If using an Arch-Like system, just follow those steps:
+#### -Ubuntu/Debian
+ You can fetch the *working* script install [here](https://github.com/milq/milq/blob/master/scripts/bash/install-opencv.sh) if a <b>Ubuntu/Debian</b> user<br>
+#### -Arch-Like
+ If using an Arch-Like system, just follow those steps:
 
 ```console
 sudo pacman -S opencv
