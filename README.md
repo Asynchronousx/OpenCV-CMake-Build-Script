@@ -1,5 +1,5 @@
 # OpenCV Build Script
-With this simple bash script, you will *not* need anymore to compile your OpenCV code with the aux of CMakeList e Makefile,<br>
+With this simple bash script, you will *not* need anymore to compile your OpenCV code with the aux of CMakeList & Makefile,<br>
 avoiding the stress of compiling copy-pasted code everytime into your config file.
 
 ### Pre-requisites
