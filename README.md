@@ -5,7 +5,7 @@ avoiding the stress of compiling copy-pasted code everytime into your config fil
 ### Pre-requisites
 None, or just Open-CV installed. Depending on what system you run on, you should do the following steps.<br>
 
-## Installation
+## OpenCV Installation
 #### -Ubuntu/Debian
  You can fetch the *working* script install [here](https://github.com/milq/milq/blob/master/scripts/bash/install-opencv.sh) if a <b>Ubuntu/Debian</b> user<br>
 #### -Arch-Like
