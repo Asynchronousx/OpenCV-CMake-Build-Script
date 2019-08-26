@@ -17,7 +17,7 @@ sudo pacman -S hdf5 vtk
 sudo pacman -S glew
 ```
 
-## Setting the script
+## Setting the Enviroinment
 ### Ubuntu-like Systems
 Simple as it is, bebfore using this script is *strongly* suggested to create an alias to make the script executable everywhere<br>
 into your system.Instead, it is <b>requested</b> the presence of the OpenCV build dir into the path variables.<br>
@@ -46,7 +46,7 @@ In this case, you don't need to set the OPENCV_DIR because the library are insta
 into your /usr/lib path.<br>
 Just donwload the appropriate BASH script (*build_arch*), rename it to *build* and follow the steps ahead.<br>
 
-# Common Steps
+# Installing the Script
 
 Once done that, create an hidden folder to contain the OpenCV build file: <br>
 
