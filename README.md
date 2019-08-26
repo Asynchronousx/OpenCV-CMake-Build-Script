@@ -3,7 +3,7 @@ With this simple bash script, you will *not* need anymore to compile your OpenCV
 avoiding the stress of compiling copy-pasted code everytime into your config file.
 
 ### Pre-requisites
-Just Open-CV installed. Depending on what system you run on, you should do the following steps.<br
+None, or just Open-CV installed. Depending on what system you run on, you should do the following steps.<br>
 
 ## Installation
 #### -Ubuntu/Debian
