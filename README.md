@@ -18,7 +18,7 @@ sudo pacman -S glew
 ```
 
 ## Setting the script
-# Ubuntu-like Systems
+### Ubuntu-like Systems
 Simple as it is, bebfore using this script is *strongly* suggested to create an alias to make the script executable everywhere<br>
 into your system.Instead, it is <b>requested</b> the presence of the OpenCV build dir into the path variables.<br>
 
@@ -39,7 +39,7 @@ foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .zshrc
 foo@bar:~$ echo "export OpenCV_DIR=~/OpenCV/build" >> .bashrc
 ```
 
-# Arch Linux-like Systems
+### Arch Linux-like Systems
 If you got an Arch-like enviroinment (Manjaro, Antegros or Arch) you can just install openCV from<br>
 the pre-requisites tutorial or the AUR repo.<br>
 In this case, you don't need to set the OPENCV_DIR because the library are installed<br>
