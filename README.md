@@ -57,18 +57,18 @@ foo@bar:~$ mkdir ~/.buildOpenCV
 And copy the <b>build</b> file into this newly folder, i.e. from terminal:
 
 ```console
-foo@bar:~$ mv /path/to/build ~/.buildOpenCV
+foo@bar:~$ mv /path/to/build_arch ~/.buildOpenCV
 ```
 
 Once done that, it's almost finished: Just add this line to your shell config file: <br>
 
 1. Bash
 ```console
-foo@bar:~$ echo "alias opencv=~/.buildOpenCV/build" >> .bashrc
+foo@bar:~$ echo "alias opencv=~/.buildOpenCV/build_arch" >> .bashrc
 ```
 2. ZSH
 ```console
-foo@bar:~$ echo "alias opencv=~/.buildOpenCV/build" >> .zshrc
+foo@bar:~$ echo "alias opencv=~/.buildOpenCV/build_arch" >> .zshrc
 ```
 
 And now you can just type<br>
